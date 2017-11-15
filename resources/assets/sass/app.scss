@@ -1,0 +1,41 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+.aside-btn > a{
+    color: $color;
+}
+.aside-btn > a:hover{
+    background-color: $main;
+    color: $color;
+}
+.aside-btn{
+    color: $color;
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 0.3em;
+}
+.aside-btn:hover{
+    background-color: $main;
+    color: $color;
+}
+.aside{
+    background-color: $dark;
+    color: $color;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100vh;
+}
+.panel-body {
+    padding: 15px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 85vh;
+}
